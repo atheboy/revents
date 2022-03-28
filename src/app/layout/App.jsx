@@ -1,11 +1,13 @@
 import React from 'react';
+import EventDashboard from '../../feature/events/eventDashboard/EventDashboard';
 
-function App() {
+export default function App(){
   return (
-    <div className="App">
+    <div>
      <h1>Re-vents</h1>
+      <EventDashboard>
+        
+      </EventDashboard>
     </div>
   );
 }
-
-export default App;
